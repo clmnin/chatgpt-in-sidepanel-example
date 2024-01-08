@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Side Panel",
+  "description": "Embeds ChatGPT in a Chrome side panel",
+  "version": "1.0",
+  "permissions": [
+    "sidePanel"
+  ],
+  "action": {
+    "default_icon": {
+      "32": "images/icon32.png",
+      "72": "images/icon72.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  },
+  "icons": {
+    "32": "images/icon32.png",
+    "72": "images/icon72.png",
+    "128": "images/icon128.png"
+  }
+}
